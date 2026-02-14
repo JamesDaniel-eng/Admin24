@@ -1,0 +1,33 @@
+<?php
+
+return [
+
+    'name'              => 'Admin24',
+    'description'       => 'Accounting made simple, for everyday people.',
+    'income'              => 'Income',
+    'income_accs'              => 'Income Accounts',
+    'expenses'              => 'Expenses',
+    'expense_accs'              => 'Expense Accounts',
+    'bills'              => 'Bills',
+    'paybills'              => 'Pay Bills',
+    'vendors'              => 'Vendors',
+    'assets'              => 'Assets',
+    'employees'              => 'Employees',
+    'inventory'              => 'Inventory',
+    'banking'              => 'Banking & Accounts',
+    'transactions'              => 'Transactions',
+    'reconciliations'              => 'Reconciliations',
+    'taxes'              => 'Taxes',
+    'taxbills'              => 'Tax Bills',
+    'taxfillings'              => 'Tax Fillings',
+    'paytax'              => 'Pay Taxes',
+    'payments'              => 'Payments',
+    'customers'              => 'Customers',
+    'invoices'              => 'Customer Invoices',
+    'payinvoices'              => 'Pay Invoices',
+    'receipts'              => 'Customer Receipts',
+    'created'              => 'Created',
+    'unit_price'              => 'Unit Price',
+    'total'              => 'Total',
+    'transfer_orders'              => 'Transfer Orders',
+];

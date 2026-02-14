@@ -1,0 +1,167 @@
+/* Admin24 theme overrides - quick CSS shim to alias green utilities to "breaker-bay" palette
+   This file is loaded after compiled app.css and will override .bg-green / .text-green / .border-green
+   Uses CSS variables (breaker-bay) and utility aliases with !important for fast, non-build changes.
+*/
+
+:root {
+    --color-fiord-50: #f5f7fa;
+    --color-fiord-100: #ebeef3;
+    --color-fiord-200: #d2dbe5;
+    --color-fiord-300: #aabbcf;
+    --color-fiord-400: #7c97b4;
+    --color-fiord-500: #5c7b9b;
+    --color-fiord-600: #486281;
+    --color-fiord-700: #3b4f69;
+    /* brand primary */
+    --color-fiord-800: #344458;
+    --color-fiord-900: #2f3b4b;
+    --color-fiord-950: #1f2632;
+
+    --color-breaker-bay-50: #f3faf9;
+    --color-breaker-bay-100: #d7f0ef;
+    --color-breaker-bay-200: #afe0df;
+    --color-breaker-bay-300: #7fc8c9;
+    --color-breaker-bay-400: #55a8ac;
+    --color-breaker-bay-500: #40979d;
+    /* brand secondary */
+    --color-breaker-bay-600: #2d6e74;
+    --color-breaker-bay-700: #28585d;
+    --color-breaker-bay-800: #23484c;
+    --color-breaker-bay-900: #213d40;
+    --color-breaker-bay-950: #0e2225;
+}
+
+/* Background utilities (breaker-bay) */
+.bg-breaker-bay-50 {
+    background-color: var(--color-breaker-bay-50) !important;
+}
+
+.bg-breaker-bay-100 {
+    background-color: var(--color-breaker-bay-100) !important;
+}
+
+.bg-breaker-bay-200 {
+    background-color: var(--color-breaker-bay-200) !important;
+}
+
+.bg-breaker-bay-300 {
+    background-color: var(--color-breaker-bay-300) !important;
+}
+
+.bg-breaker-bay-400 {
+    background-color: var(--color-breaker-bay-400) !important;
+}
+
+.bg-breaker-bay-500 {
+    background-color: var(--color-breaker-bay-500) !important;
+}
+
+.bg-breaker-bay-600 {
+    background-color: var(--color-breaker-bay-600) !important;
+}
+
+.bg-breaker-bay-700 {
+    background-color: var(--color-breaker-bay-700) !important;
+}
+
+.bg-breaker-bay-800 {
+    background-color: var(--color-breaker-bay-800) !important;
+}
+
+.bg-breaker-bay-900 {
+    background-color: var(--color-breaker-bay-900) !important;
+}
+
+.bg-breaker-bay-950 {
+    background-color: var(--color-breaker-bay-950) !important;
+}
+
+/* Alias green utilities to breaker-bay so existing bg-green classes reflect new color */
+.bg-green,
+.bg-green-500 {
+    background-color: var(--color-breaker-bay-500) !important;
+}
+
+.bg-purple {
+    background-color: var(--color-fiord-700) !important;
+}
+
+.bg-green-50 {
+    background-color: var(--color-breaker-bay-50) !important;
+}
+
+.bg-green-100 {
+    background-color: var(--color-breaker-bay-100) !important;
+}
+
+.bg-green-200 {
+    background-color: var(--color-breaker-bay-200) !important;
+}
+
+.bg-green-300 {
+    background-color: var(--color-breaker-bay-300) !important;
+}
+
+.bg-green-400 {
+    background-color: var(--color-breaker-bay-400) !important;
+}
+
+.bg-green-600 {
+    background-color: var(--color-breaker-bay-600) !important;
+}
+
+.bg-green-700 {
+    background-color: var(--color-breaker-bay-700) !important;
+}
+
+.bg-green-800 {
+    background-color: var(--color-breaker-bay-800) !important;
+}
+
+.bg-green-900 {
+    background-color: var(--color-breaker-bay-900) !important;
+}
+
+.bg-green-950 {
+    background-color: var(--color-breaker-bay-950) !important;
+}
+
+/* Text and border aliases */
+.text-breaker-bay-500 {
+    color: var(--color-breaker-bay-500) !important;
+}
+
+.text-green,
+.text-green-500 {
+    color: var(--color-breaker-bay-500) !important;
+}
+
+.border-green,
+.border-green-500 {
+    border-color: var(--color-breaker-bay-500) !important;
+}
+
+/* Hover variants commonly used in compiled templates (escape colon) */
+.hover\\:bg-green-500:hover {
+    background-color: var(--color-breaker-bay-500) !important;
+}
+
+.hover\\:text-green-500:hover {
+    color: var(--color-breaker-bay-500) !important;
+}
+
+/* Quill overrides (in case other copies exist) */
+.ql-editor .ql-bg-green {
+    background-color: var(--color-breaker-bay-500) !important;
+}
+
+.ql-editor .ql-color-green {
+    color: var(--color-breaker-bay-500) !important;
+}
+
+/* Utility to help legacy classes like bg-success that might map to green in app CSS */
+.bg-success {
+    background-color: var(--color-breaker-bay-500) !important;
+}
+
+/* End overrides */

@@ -1,0 +1,21 @@
+{
+    "alias": "admin24",
+    "icon": "fa fa-cog",
+    "version": "1.0.3",
+    "active": 1,
+    "providers": [
+        "Modules\\Admin24\\Providers\\Event",
+        "Modules\\Admin24\\Providers\\Main",
+        "Modules\\Admin24\\Providers\\Admin24"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [
+        "Modules\\Admin24\\Reports\\ProductionStockStatus",
+        "Modules\\Admin24\\Reports\\InventoryTransfers"
+    ],
+    "widgets": [],
+    "settings": [],
+    "extra-modules": {}
+}

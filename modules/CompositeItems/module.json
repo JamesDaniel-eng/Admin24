@@ -1,0 +1,30 @@
+{
+    "alias": "composite-items",
+    "icon": "group_work",
+    "version": "2.2.0",
+    "category": "inventory",
+    "active": 1,
+    "providers": [
+        "Modules\\CompositeItems\\Providers\\Event",
+        "Modules\\CompositeItems\\Providers\\Main",
+        "Modules\\CompositeItems\\Providers\\Observer",
+        "Modules\\CompositeItems\\Providers\\DynamicRelations",
+        "Modules\\CompositeItems\\Providers\\ViewComposer"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [],
+    "widgets": [],
+    "settings": [
+        {
+            "type": "toggle",
+            "name": "show_in_documents",
+            "title": "composite-items::general.show_in_documents",
+            "enable": "general.yes",
+            "disable": "general.no",
+            "attributes": {},
+            "rules": "required|integer"
+        }
+    ]
+}
